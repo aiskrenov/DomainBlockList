@@ -26,7 +26,7 @@ internal class Program
             description: "Custom string format of each line. The format must include the {0} placeholder for the domain name.",
             getDefaultValue: () => "{0}");
 
-        var rootCommand = new RootCommand("Domain block list generator for Bind9, hosts file, PiHole, etc.")
+        var rootCommand = new RootCommand("Domain block list generator for Bind9, hosts file, Pi-hole, etc.")
         {
             fileOption,
             formatTypeOption,
